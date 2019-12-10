@@ -24,7 +24,6 @@ public class CareerTest extends BaseTest {
             driver.switchTo().window(winHandle);
         }
 
-
         ListOfPositionPage jobDiscribePage = listOfPositionPage.clickApplyButton1();
 
         JobDiscribePage jobDiscribePage1 = new JobDiscribePage(driver);
@@ -61,6 +60,5 @@ public class CareerTest extends BaseTest {
 
         String error1 = jobDiscribePage1.errorResumeField();
         Assert.assertEquals("✱ Please attach a resume", error1);
-
     }
 }

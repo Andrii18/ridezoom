@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e516b45e-6d91-4d47-bfc5-c431bc7888e6" name="Default Changelist" comment="" />
+    <list default="true" id="e516b45e-6d91-4d47-bfc5-c431bc7888e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridezum/CareerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridezum/CareerTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ULLAsmvdEn4ih9QwsIMVR4GCPC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ridezum" />
@@ -146,5 +149,16 @@
       <updated>1575130788695</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -18,7 +18,6 @@ public class ListOfPositionPage extends BasePage {
 //    @FindBy(css = "a.posting-btn-submit.template-btn-submit.hex-color")
 //    private List<WebElement>ApplyButton;
 
-
     public ListOfPositionPage clickApplyButton1() {
         wait.until(ExpectedConditions.elementToBeClickable(ApplyButtons.get(0)));
         ApplyButtons.get(0).click();
