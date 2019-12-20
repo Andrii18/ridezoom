@@ -17,7 +17,5 @@ public class EmailGenerator {
                 .append("@gmail.com");
         String email = builder.toString();
         return email;
-
-
     }
 }

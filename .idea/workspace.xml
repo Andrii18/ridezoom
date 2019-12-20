@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e516b45e-6d91-4d47-bfc5-c431bc7888e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridezum/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ridezum/ListOfPositionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ridezum/ListOfPositionPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ridezum/CareerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ridezum/CareerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ridezum/EmailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ridezum/EmailGenerator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CareerTest.testCarrer">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ridezum.Main" />
+  <component name="RunManager" selected="JUnit.ApiTest.testApi">
+    <configuration name="ApiTest.testApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ridezum" />
       <extension name="coverage">
         <pattern>
@@ -61,6 +61,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ridezum" />
+      <option name="MAIN_CLASS_NAME" value="ridezum.ApiTest" />
+      <option name="METHOD_NAME" value="testApi" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.testApi" />
         <item itemvalue="JUnit.CareerTest.testCarrer" />
         <item itemvalue="JUnit.EmptyFieldVerificationsTest.testEmptyFieldVerifications" />
         <item itemvalue="JUnit.ApplyContactTest.testApplyContact" />
         <item itemvalue="JUnit.ApplyTest.testApplyToDrive" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,10 +161,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ridezum/ApiTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
