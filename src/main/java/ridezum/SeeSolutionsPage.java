@@ -12,8 +12,11 @@ public class SeeSolutionsPage extends BasePage {
     public SeeSolutionsPage(WebDriver driver) {
         super(driver);
     }
+
+
     @FindBy(css = ".m-btn.scroll-to-btn")
     private List <WebElement> pageButtons;
+
 
 
     public ApplyContactPage clickContactSalesButton() {

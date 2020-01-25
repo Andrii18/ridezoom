@@ -20,6 +20,10 @@ public class BaseTest {
 
     protected HomePage homepage;
 
+    protected SeeSolutionsPage seeSolutionsPage;
+
+    protected ApplyContactPage applyContactPage;
+
     protected static EmailGenerator emailGenerator;
 
 

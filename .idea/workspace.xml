@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e516b45e-6d91-4d47-bfc5-c431bc7888e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ridezum/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ridezum/EmailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ridezum/EmailGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ridezum/ApplyContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ridezum/ApplyContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ridezum/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ridezum/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ridezum/SeeSolutionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ridezum/SeeSolutionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridezum/ApplyContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridezum/ApplyContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridezum/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridezum/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ridezum/ApplyContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ridezum/ApplyContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ridezum/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ridezum/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ridezum/SeeSolutionsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ridezum/SeeSolutionsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ridezum/ApplyContactTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ridezum/ApplyContactTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ridezum/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ridezum/BaseTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.testApi">
+  <component name="RunManager" selected="JUnit.ApplyContactTest.testApplyContact">
     <configuration name="ApiTest.testApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ridezum" />
       <extension name="coverage">
@@ -69,6 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApplyContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ridezum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ridezum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ridezum" />
+      <option name="MAIN_CLASS_NAME" value="ridezum.ApplyContactTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplyContactTest.testApplyContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ridezum" />
       <extension name="coverage">
@@ -80,22 +102,6 @@
       <option name="PACKAGE_NAME" value="ridezum" />
       <option name="MAIN_CLASS_NAME" value="ridezum.ApplyContactTest" />
       <option name="METHOD_NAME" value="testApplyContact" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplyTest.testApplyToDrive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ridezum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ridezum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ridezum" />
-      <option name="MAIN_CLASS_NAME" value="ridezum.ApplyTest" />
-      <option name="METHOD_NAME" value="testApplyToDrive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplyContactTest.testApplyContact" />
+        <item itemvalue="JUnit.ApplyContactTest" />
         <item itemvalue="JUnit.ApiTest.testApi" />
         <item itemvalue="JUnit.CareerTest.testCarrer" />
         <item itemvalue="JUnit.EmptyFieldVerificationsTest.testEmptyFieldVerifications" />
-        <item itemvalue="JUnit.ApplyContactTest.testApplyContact" />
-        <item itemvalue="JUnit.ApplyTest.testApplyToDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +182,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/ridezum/ApiTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ridezum/ApplyContactTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

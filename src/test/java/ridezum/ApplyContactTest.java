@@ -1,25 +1,24 @@
 package ridezum;
 
 import org.junit.Test;
+import org.openqa.selenium.By;
 
-public class ApplyContactTest extends BaseTest {
+public class  ApplyContactTest extends BaseTest {
 
     @Test
-    public void testApplyContact() {
+    public void testApplyContact() throws InterruptedException {
 
         HomePage homePage = new HomePage(driver);
 
-        SeeSolutionsPage seeSolutionsPage = homePage.clickSeeSolutionsButton();
+        seeSolutionsPage = homePage.clickSeeSolutionsButton();
 
-        ApplyContactPage applyContactPage = seeSolutionsPage.clickContactSalesButton();
+        applyContactPage = seeSolutionsPage.clickContactSalesButton();
 
         applyContactPage.firstName("Ivan");
 
         applyContactPage.lastName("Ivanov");
 
         applyContactPage.schoolName("Green");
-
-        applyContactPage.title("");
 
         String email = emailGenerator.generator();
 
@@ -29,11 +28,8 @@ public class ApplyContactTest extends BaseTest {
 
         applyContactPage.zipCode("50000");
 
+        applyContactPage.mouseMove();
 
-
-
-
+        applyContactPage.titleClickField();
     }
-
-
 }

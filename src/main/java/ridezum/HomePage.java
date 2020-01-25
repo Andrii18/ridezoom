@@ -22,8 +22,8 @@ public class HomePage extends BasePage {
     }
 
     public SeeSolutionsPage clickSeeSolutionsButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(homePageButtons.get(2)));
-        homePageButtons.get(2).click();
+        wait.until(ExpectedConditions.elementToBeClickable(homePageButtons.get(0)));
+        homePageButtons.get(0).click();
         return new SeeSolutionsPage(driver);
     }
 
